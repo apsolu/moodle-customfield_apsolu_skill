@@ -15,15 +15,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Customfield Select Type
+ * Version details.
  *
- * @package   customfield_select
- * @copyright 2018 Toni Barbera <toni@moodle.com>
+ * @package   customfield_apsolu_skill
+ * @copyright 2026 Université Rennes 2
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'customfield_apsolu_skill';
-$plugin->version   = 2021051700;
-$plugin->requires  = 2021051100;
+
+// The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2026092300;
+
+// Requires Moodle 5.2.0.
+$plugin->requires  = 2026042000;
